@@ -7,9 +7,10 @@ So many people like them, I use them too. What nobody likes, though, is the pric
 
 I heard from nearly anyone facing that problem (using those connectors) that someone has to design an open source needle adapter to make it affordable for vast majority of makers. I waited for a few years but that didn't appear (or I didn't see it at least). So, having a few spare hours I decided to try to solve that problem.
 
-This repo contains my attempt to make a low-cost open source needle adapter for JTAG.
+This repo contains my attempt to make a low-cost open source needle adapter for JTAG. 
+Initial concept is to have a flexible PCB with a standard 10 pin header connecotr on one side and soldered needle probes on another side. The needle side may be later housed into some 3d printed shell for better mechanical fitting.
 
-## Spring needle probes
+## Step 1: Spring needle probes
 The probes for prototyping were "P50" series probes, sourced on Amazon, where they are sold in 100 pcs packs for about 5...8€, so less than 1$ per 10-pin adapter.
 Suppliers as Digikey or Mouser have suitable options as well with some higher prices.
 My choice was the probes with round shaped contact surface (P50-J1) as I was afraid sharp ends (like P50-B1) might damage the corresponding contact pads with extensive use.
@@ -27,3 +28,8 @@ The information available from web listings and some unnamed pdf files state the
 - Spring: Music Wire. Gold Plated
 
 Recommended hole size for P50-J1 is 0.9 mm.
+
+## Step 2: Flexible PCB
+As soon as we try to design it low-cost, 2 layers PCB will be just fine for the "Proof of Concept" version.
+
+![image](IMG/3D.png)
