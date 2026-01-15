@@ -29,7 +29,11 @@ The information available from web listings and some unnamed pdf files state the
 
 Recommended hole size for P50-J1 is 0.9 mm.
 
+
 ## Step 2: Flexible PCB
 As soon as we try to design it low-cost, 2 layers PCB will be just fine for the "Proof of Concept" version.
+For the same reason flexible boards were ordered without stifeners (stiffeners were initially planned so the cable would take mechanical load from connectors). Dpending on further 3D-printed parts design, the stiffeners may (or may not) come back in later itterations.
 
 ![image](IMG/3D.png)
+
+Waiting for components... To be continued.
