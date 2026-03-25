@@ -44,12 +44,12 @@ The plastic part of the connector was designed in Freecad. The source file can b
 ## Step 4: Assembly
 Needle probes are inserted inside the plastic body "through" the flexible PCB. 
 
-![image](IMG/pins.png)
+![image](IMG/pins.jpg)
 
 The PCB sits there quite tight and strictly speaking I expected there will be contact good enough even without soldering.
 But of course I soldered.
 
-![image](IMG/soldered.png)
+![image](IMG/soldered.jpg)
 
 ## Step 5: ToDo
 The project is still work in progress and needs some testing and improvements.
