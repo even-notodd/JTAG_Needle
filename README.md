@@ -1,5 +1,5 @@
 # JTAG_Needle
-# !!!WORK IN PROGRESS!!!
+##!!!The project is still work in progress and needs some testing and improvements!!!
 Needle connectors for flashing/debugging hardware via JTAG become more and more popular last years.
 But not as much the needle connectors themsleves as the corresponding "zero connector" footprint.
 The footprint used as a flashing/debugging connector is beloved by managers as it looks like some cost optimizing move, but also by engineers as you can have one component implemented in layout itself and it is tech fun. 
@@ -36,7 +36,23 @@ For the same reason flexible boards were ordered without stifeners (stiffeners w
 
 ![image](IMG/3D.png)
 
-Waiting for components... To be continued.
+## Step 3: 3D printed part
+The plastic part of the connector was designed in Freecad. The source file can be found in the repo along with exported STL.
+
+![image](IMG/3D_body.png)
+
+## Step 4: Assembly
+Needle probes are inserted inside the plastic body "through" the flexible PCB. 
+
+![image](IMG/pins.png)
+
+The PCB sits there quite tight and strictly speaking I expected there will be contact good enough even without soldering.
+But of course I soldered.
+
+![image](IMG/soldered.png)
+
+## Step 5: ToDo
+The project is still work in progress and needs some testing and improvements.
 
 ## License
 See the ![LICENSE file](LICENSE) for details. 
